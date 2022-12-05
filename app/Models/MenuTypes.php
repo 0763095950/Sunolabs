@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class MenuTypes extends Model
 {
     use HasFactory;
-    protected $fillable = ['name'];
+    protected $fillable = ['menu_name'];
 }
